@@ -2,6 +2,7 @@ import React from 'react'
 import Subject from './Subject'
 import Advertisement from './Advertisement'
 // import Form from './Form'
+// import Time from './Time'
 
 const Main = () => {
     let MainStyle={
@@ -16,6 +17,7 @@ const Main = () => {
             <img src="IMG_20210215_082119_1.jpg" alt="" />
             <Subject/>
             <Advertisement/>
+           {/* <Time/> */}
             {/* <Form/> */}
          
            
