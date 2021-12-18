@@ -14,7 +14,7 @@ const Main = () => {
     return (
         <div>
             <h1 style={MainStyle}><b>Welcome to the Quiz</b></h1>
-            <img src="IMG_20210215_082119_1.jpg" alt="" />
+           
             <Subject/>
             <Advertisement/>
            {/* <Time/> */}

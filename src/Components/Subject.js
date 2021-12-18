@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Subject = () => {
     let Subject = {
@@ -12,7 +13,7 @@ const Subject = () => {
     return (
         <div style={Subject}>
             <div class="accordion shadow p-3 mb-5 bg-body rounded" id="accordiFourxample">
-                 <div class="accordion-item">
+                <div class="accordion-item">
                     <h2 class="accordion-header" id="headingOne">
                         <button class="accordion-button shadow p-3 mb-5 bg-body rounded" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             <b>COMPLETE SYLLABUS TEST</b>
@@ -31,12 +32,13 @@ const Subject = () => {
                             All are <b>Single Choice Type</b> question  which are alloted
                             <br /> <b>4 marks</b> for each question
 
-                            
+
                             <br /> <br />
 
                             <input type="Checkbox" /> Accept all the condition
                             <hr />
-                            <button >Start</button>
+                            <button ><Link to="/Form">GO</Link>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -53,13 +55,15 @@ const Subject = () => {
                             All are <b>Single Choice Type</b> question  which are alloted
                             <br /> <b>4 marks</b> for each question
                             <br /><br />
-                           
-                            
-                            
+
+
+
                             <input type="Checkbox" />  Accept all the condition
                             <hr />
-                           
-                            <button>Start</button>
+
+                            <button>
+                                <Link to="/Form">GO</Link>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -80,7 +84,7 @@ const Subject = () => {
 
                             <hr />
 
-                            <button>Start</button>
+                            <button><Link to="/Form">GO</Link></button>
                         </div>
                     </div>
                 </div>
@@ -98,16 +102,16 @@ const Subject = () => {
                             All are <b>Single Choice Type</b> question  which are alloted
                             <br /> <b>4 marks</b> for each question
 
-                            
+
                             <br /> <br />
 
                             <input type="Checkbox" /> Accept all the condition
                             <hr />
-                            <button >Start</button>
+                            <button ><Link to="/Form">GO</Link></button>
                         </div>
                     </div>
                 </div>
-               
+
             </div>
 
         </div>

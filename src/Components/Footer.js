@@ -5,18 +5,15 @@ const Footer = () => {
    let Bottom={
            position:"absolute",
            top:"160vh"
-           
-
     }
     return (
         <>
         <div style={Bottom}>
-            Conduncted &copy; By NSS IIT ROORKEE
+            Conducted &copy; By NSS IIT ROORKEE
         </div>
         
         </>
         
     )
 }
-
 export default Footer

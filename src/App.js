@@ -1,21 +1,24 @@
-import React from 'react';
-import Footer from './Components/Footer';
-import Header from './Components/Header';
-import Main from './Components/Main';
-
-
+import React from 'react'
+import Block from './Components/Block'
+import Form from './Components/Form'
+import Ques from './Components/Ques'
+import {Route,Switch} from "react-router-dom"
+// import Color from './Components/Color';
+// import Text from './Components/Text';
 const App = () => {
         return (
                 <div>
-                        <Header/>
-                        <Main/>
-                        <Footer/>
-                        
+                        <Switch>
+                                <Route exact path="/" component={Block}/>
+                                <Route exact path="/Form" component={Form}/>
+                                <Route exact path="/Ques" component={Ques}/>
+                        </Switch>  
                 </div>
         )
 }
 
 export default App
+
 
 
 
